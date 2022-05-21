@@ -1,0 +1,87 @@
+td {
+	border:  2px solid #333;
+	height:  100px;
+	width:  100px;
+	text-align:  center;
+	vertical-align:  middle;
+	font-family:  "Comic Sans MS", cursive, sans-serif;
+	font-size:  70px;
+	cursor: pointer;
+}
+
+table {
+	border-collapse: collapse;
+    background-color: beige;
+	position: absolute;
+	left: 50%;
+	margin-left: -155px;
+	top: 35%;
+    border-style: hidden;
+}
+
+
+
+.endgame {
+  display: none;
+  width: 200px;
+  top: 43%;
+  background-color: #3C787E;
+  position: absolute;
+  left: 53.5%;
+  margin-left: -155px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
+
+.reset {
+    position: absolute;
+	font-size: 20px;
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	color: grey;
+	background-color: beige;
+	padding: 10px;
+	padding-left: 70px;
+	padding-right: 70px;
+	transition: border, color, .5s;
+    position: fixed;
+  }
+  .reset:hover {
+	cursor: pointer;
+	color: black;
+	border: 1px solid gray;
+	transition: border, color, .5s;
+  }
+  .header {
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	color: tomato;
+	text-align: center;
+	margin-top: 150px;
+    display: flex;
+	flex-direction: row;
+	margin-left: 669px;
+  }
+
+  .p1, .p2 {
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+    margin-left: 743px;
+  }
+  
+  .p1 {
+	color: tomato;
+   
+  }
+  
+  .p2 {
+	color: #004c36;
+  }
+  
+  
